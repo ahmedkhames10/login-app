@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="container text-center my-5" >
+<div id="content" class="content m-auto p-5 w-75">
+<h1 class="text-info">smart login system</h1>
+<input id="name1" required type="text" class="form-control my-3 " placeholder="enter your name">
+<input id="email1" required type="email" class="form-control my-3 " placeholder="enter your email">
+<input id="password1" required type="password" class="form-control my-3 " placeholder="enter password">
+<div id="empty" class="empty text-center">
+
+</div>
+<div class="d-grid gap-2">
+  <button id="signup"  class="btn btn-outline-primary" type="button">sign up</button>
+</div>
+<p class="text-light mt-3">you have an account?<span id="signin" >sign in</span></p>
+</div>
+
+<div id="content2" class="content d-none m-auto p-5 w-75">
+<h1 class="text-info">smart login system</h1>
+<input id="email2" required type="email" class="form-control my-3 " placeholder="enter your name">
+<input id="pass2" required type="password" class="form-control my-3 " placeholder="enter your email">
+<div id="empty2" class="empty2 text-center">
+  
+</div>
+<div class="d-grid gap-2">
+  <button id="login" class="btn btn-outline-primary" type="button"> login</button>
+</div>
+<p class="text-light mt-3">you have an account?<span id="signupbtn" >sign up</span></p>
+</div>
+</div>
+
+
+
+
+
+    <script src="js/login.js"></script>
+</body>
+</html>
